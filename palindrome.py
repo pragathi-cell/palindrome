@@ -1,7 +1,8 @@
 
 # Program to check whether a string is a palindrome
+import sys
 
-string = input("Enter a string: ")
+string = sys.argv[1]
 
 # Reverse the string
 reverse = string[::-1]
